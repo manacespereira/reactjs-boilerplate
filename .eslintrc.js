@@ -24,5 +24,6 @@ module.exports = {
     'import/extensions': 'off',
     'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 };

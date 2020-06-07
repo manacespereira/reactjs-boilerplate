@@ -7,10 +7,7 @@ const INITIAL_STATE: RepositoriesState = {
   loading: false,
 };
 
-const reducer: Reducer<RepositoriesState> = (
-  state = INITIAL_STATE,
-  action: any,
-) => {
+const reducer: Reducer<RepositoriesState> = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case RepositoriesTypes.LOAD_REQUEST:
       return { ...state, loading: true };
